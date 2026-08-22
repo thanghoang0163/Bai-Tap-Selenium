@@ -24,6 +24,12 @@ public class BaiTap3_amazonSearchResultPage {
 
         Thread.sleep(1000);
 
+        // =================================================================
+        // Do bài tập chỉ yêu cầu xác định locator nên em không có thực hiện
+        // các hành động như click, sendKey,...
+        // mà chỉ lấy locator như xPath, id, ...
+        // ==================================================================
+
         // 1. Product image
         By byProductImage = By.xpath("//img[@data-image-index='1']");
         WebElement productImage = driver.findElement(byProductImage);

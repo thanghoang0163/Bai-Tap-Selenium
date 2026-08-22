@@ -24,6 +24,12 @@ public class BaiTap2_airbnbHomePage {
 
         Thread.sleep(1000);
 
+        // =================================================================
+        // Do bài tập chỉ yêu cầu xác định locator nên em không có thực hiện
+        // các hành động như click, sendKey,...
+        // mà chỉ lấy locator như xPath, id, ...
+        // ==================================================================
+
         // 1. Website logo
         By byLogo = By.xpath("//a[img[@alt='Cyber Logo']]");
         WebElement logo = driver.findElement(byLogo);

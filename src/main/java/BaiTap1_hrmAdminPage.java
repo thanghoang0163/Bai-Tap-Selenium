@@ -39,6 +39,12 @@ public class BaiTap1_hrmAdminPage {
 //        WebElement btnSubmit = driver.findElement(bySubmit);
 //        btnSubmit.click();
 
+        // =================================================================
+        // Do bài tập chỉ yêu cầu xác định locator nên em không có thực hiện
+        // các hành động như click, sendKey,...
+        // mà chỉ lấy locator như xPath, id, ...
+        // ==================================================================
+
         // 1. Admin Category
         By byAdminCategory = By.xpath("//a[contains(@class,'oxd-main-menu-item')][span[text()='Admin']]");
         WebElement adminCategory = driver.findElement(byAdminCategory);
